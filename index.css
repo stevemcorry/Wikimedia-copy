@@ -1,0 +1,50 @@
+body {
+  font:13px/1.5 sans-serif;
+}
+header {
+  text-align: justify;
+    vertical-align: top;
+    width: 70%;
+    font-size: 150%;
+    margin: auto;
+    padding: 0em 0em;
+}
+a {
+  text-decoration: none;
+}
+p {
+  display:block;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6.5em;
+  padding: vw;
+  /*text-align: left;
+  position: absolute;*/
+  left: 50%;
+}
+.project {
+  width: 160px;
+  height: 180px;
+  max-width: 200px;
+  line-height: 175px;
+  margin: 0 30px;
+}
+img {
+  height: 70%;
+  width: 60%;
+}
+footer {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  border-top: 1px solid grey;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%);
+}
+footer a {
+}
